@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Classesoooo">
+   <children>
+      <Label layoutX="277.0" layoutY="11.0" prefHeight="57.0" prefWidth="170.0" text="classes options for admin" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToScene1" text="Back" />
+      <Button layoutX="507.0" layoutY="251.0" mnemonicParsing="false" onAction="#edityaba" prefHeight="18.0" prefWidth="134.0" text="edit class">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="269.0" layoutY="544.0" mnemonicParsing="false" onAction="#assign" prefHeight="30.0" prefWidth="186.0" text="assign trainer to class">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="331.0" mnemonicParsing="false" onAction="#deleteyaba" prefHeight="30.0" prefWidth="133.0" text="delete class">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="121.0" layoutY="251.0" mnemonicParsing="false" onAction="#openyaba" prefHeight="30.0" prefWidth="134.0" text="open class">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="258.0" layoutY="403.0" mnemonicParsing="false" onAction="#viewspecific" prefHeight="30.0" prefWidth="186.0" text="view members in spesific class">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="285.0" layoutY="10.0" text="class section" textFill="#b56150">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="81.0" text="open new class" />
+      <TextField fx:id="Cid" layoutX="170.0" layoutY="116.0" text="1 yoga , 2 fitness" />
+      <TextField fx:id="Cd" layoutX="170.0" layoutY="190.0" />
+      <TextField fx:id="Cc" layoutX="170.0" layoutY="150.0" />
+      <Label layoutX="51.0" layoutY="120.0" text="class no" />
+      <Label layoutX="50.0" layoutY="154.0" text="capacity of class" />
+      <Label layoutX="50.0" layoutY="194.0" text="class data" />
+      <Label fx:id="Lo" layoutX="64.0" layoutY="282.0" prefHeight="66.0" prefWidth="211.0" textFill="#48f75d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="Lo1" layoutX="431.0" layoutY="282.0" prefHeight="66.0" prefWidth="211.0" textFill="#48f75d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="Lo2" layoutX="250.0" layoutY="360.0" prefHeight="55.0" prefWidth="186.0" textFill="#ea3636">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="Lo3" layoutX="23.0" layoutY="468.0" prefHeight="66.0" prefWidth="695.0" textFill="#48f75d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Cid1" layoutX="277.0" layoutY="302.0" />
+      <TextField fx:id="Cid2" layoutX="514.0" layoutY="126.0" text="1 yoga , 2 fitness" />
+      <TextField fx:id="Cd1" layoutX="514.0" layoutY="190.0" />
+      <TextField fx:id="Cc1" layoutX="514.0" layoutY="160.0" />
+      <Label layoutX="395.0" layoutY="130.0" text="class no" />
+      <Label layoutX="394.0" layoutY="164.0" text="capacity of class" />
+      <Label layoutX="394.0" layoutY="194.0" text="class data" />
+      <Label layoutX="537.0" layoutY="72.0" text="edit class" />
+      <TextField fx:id="Selecto" layoutX="516.0" layoutY="98.0" prefHeight="26.0" prefWidth="41.0" />
+      <Label layoutX="395.0" layoutY="103.0" text="choose class id --&gt;" />
+      <TextField fx:id="ned" layoutX="514.0" layoutY="216.0" />
+      <Label layoutX="394.0" layoutY="220.0" text="new id" />
+      <TextField fx:id="Selecto1" layoutX="193.0" layoutY="620.0" prefHeight="26.0" prefWidth="48.0" />
+      <TextField fx:id="Selecto2" layoutX="289.0" layoutY="620.0" prefHeight="26.0" prefWidth="48.0" />
+      <Label layoutX="241.0" layoutY="618.0" text="  +">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="359.0" layoutY="618.0" text="=">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="589.0" text="Class id">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="589.0" text="trainer id">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Lo4" layoutX="375.0" layoutY="592.0" prefHeight="55.0" prefWidth="323.0" textFill="#50b90e">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Selecto5" layoutX="320.0" layoutY="433.0" prefHeight="26.0" prefWidth="48.0" />
+      <Label layoutX="208.0" layoutY="437.0" text="choose class id --&gt;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Addtrainer">
+   <children>
+      <Button layoutX="27.0" layoutY="21.0" mnemonicParsing="false" onAction="#switchToScene1" text="Back" />
+      <Label layoutX="95.0" layoutY="71.0" text="add new trainer" />
+      <TextField fx:id="Taname" layoutX="160.0" layoutY="106.0" />
+      <TextField fx:id="Tnat" layoutX="160.0" layoutY="224.0" />
+      <TextField fx:id="Tagender" layoutX="160.0" layoutY="180.0" text="1 for male 2  female" />
+      <TextField fx:id="Taphone" layoutX="160.0" layoutY="140.0" />
+      <Label layoutX="41.0" layoutY="110.0" text="name:" />
+      <Label layoutX="40.0" layoutY="144.0" text="phone number" />
+      <Label layoutX="40.0" layoutY="184.0" text="gender:" />
+      <Label layoutX="41.0" layoutY="228.0" text="national id :" />
+      <Button layoutX="151.0" layoutY="274.0" mnemonicParsing="false" onAction="#addyaba" prefHeight="30.0" prefWidth="133.0" text="add trainer">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="520.0" layoutY="286.0" mnemonicParsing="false" onAction="#edityaba" prefHeight="30.0" prefWidth="133.0" text="edit trainer">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="326.0" layoutY="331.0" mnemonicParsing="false" onAction="#deleteyaba" prefHeight="30.0" prefWidth="133.0" text="delete trainer">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="43.0" layoutY="471.0" mnemonicParsing="false" onAction="#assign" prefHeight="30.0" prefWidth="186.0" text="assign trainer to member">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="310.0" layoutY="20.0" prefHeight="45.0" prefWidth="134.0" text="Trainer section" textFill="#728e00">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="La" layoutX="87.0" layoutY="317.0" prefHeight="66.0" prefWidth="211.0" textFill="#48f75d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="La2" layoutX="500.0" layoutY="319.0" prefHeight="55.0" prefWidth="275.0" textFill="#48f75d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="La3" layoutX="243.0" layoutY="374.0" prefHeight="78.0" prefWidth="347.0" text="choose who do u want to delete" textFill="#e70c0c">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Anat2" layoutX="521.0" layoutY="246.0" />
+      <TextField fx:id="Aphone2" layoutX="521.0" layoutY="211.0" />
+      <TextField fx:id="Agender2" layoutX="521.0" layoutY="180.0" text="1 for male 2  female" />
+      <TextField fx:id="Aname2" layoutX="521.0" layoutY="128.0" />
+      <Label layoutX="460.0" layoutY="132.0" text="name:" />
+      <Label layoutX="461.0" layoutY="184.0" text="gender" />
+      <Label layoutX="459.0" layoutY="219.0" text="phone" />
+      <Label layoutX="452.0" layoutY="250.0" text="nationaal id" />
+      <TextField fx:id="Select" layoutX="521.0" layoutY="103.0" prefHeight="26.0" prefWidth="48.0" />
+      <Label layoutX="467.0" layoutY="107.0" text="id " />
+      <Label layoutX="596.0" layoutY="107.0" text="&lt;--choose here" />
+      <TextField fx:id="Anewid" layoutX="521.0" layoutY="153.0" />
+      <Label layoutX="464.0" layoutY="157.0" text="new id" />
+      <TextField fx:id="Select1" layoutX="369.0" layoutY="370.0" prefHeight="26.0" prefWidth="48.0" text="id " />
+      <TextField fx:id="Select2" layoutX="261.0" layoutY="473.0" prefHeight="26.0" prefWidth="48.0" />
+      <TextField fx:id="Select3" layoutX="361.0" layoutY="473.0" prefHeight="26.0" prefWidth="48.0" />
+      <Label layoutX="313.0" layoutY="471.0" text="  +">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="431.0" layoutY="471.0" text="=">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="248.0" layoutY="442.0" text="member id">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="358.0" layoutY="442.0" text="trainer id">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="La4" layoutX="454.0" layoutY="454.0" prefHeight="55.0" prefWidth="323.0" textFill="#50b90e">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="52.0" layoutY="562.0" mnemonicParsing="false" onAction="#Banyaba" prefHeight="46.0" prefWidth="170.0" text="Ban by national id">
+         <effect>
+            <ColorAdjust brightness="-0.06" contrast="-0.02" saturation="0.65" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Selectban" layoutX="237.0" layoutY="565.0" prefHeight="38.0" prefWidth="94.0">
+         <effect>
+            <ColorAdjust saturation="0.26" />
+         </effect>
+      </TextField>
+      <Label fx:id="Lban" layoutX="345.0" layoutY="561.0" prefHeight="46.0" prefWidth="238.0" text="Label" textFill="#d90e0e">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
